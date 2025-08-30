@@ -1,80 +1,64 @@
-# 🌟 Advanced MERN AI Finance SaaS Platform - Finora
+AI-Financial-SAAS-Platform
+ 
 
-> This code, whether in parts or whole, is licensed for commercial use **only with a license**. It is **free for personal use**.
-> 👉 [Click here to obtain license](https://techwithemma.gumroad.com/l/huytmd) and 👉 [here to learn more](https://github.com/TechWithEmmaYT/Advanced-MERN-AI-Financial-SaaS-Platform/blob/main/TECHWITHEMMA-LICENSE.md)
+An advanced AI-powered Financial SaaS platform built with the MERN stack (MongoDB, Express, React, Node.js).  
+This project demonstrates a scalable fintech SaaS application with modern technologies, real-time analytics, subscription billing, and intelligent insights.  
 
-## ❤️ Support the Channel
 
-Love this project? Here’s how you can support:
+-> Features  
+   Authentication & Authorization – Secure login with JWT & OAuth  
+   AI-driven Analytics – Smart financial insights & predictions   
+   User Dashboard – Personalized account management  
+   Real-Time Reports – Live transaction and portfolio tracking  
+   SaaS Ready – Multi-tenant and scalable architecture  
+   MERN Performance – Optimized backend and frontend workflow  
 
-* ☕ [Buy Me a Coffee](https://buymeacoffee.com/techwithemmaofficial)
-* 🌟 Star this repo
-* 🎥 [Subscribe on YouTube](https://tinyurl.com/subcribe-to-techwithEmma)
 
----
-
-## 🗝️ Key Features: 👇
-
-* 🔐 Authentication (Email + Password with JWT)
-* 🏢 Create & Edit Transactions
-* 📤 Upload & Scan Receipt with AI
-* 📈 Beautiful Advanced Analytics  (MongoDB Aggregate Pipeline)
-* 📊 Expenses Breakdown Pie Chart
-* 📈 Income & Expense Line Chart
-* 📅 Filter by Date Ranges — like Last 30 Days etc.
-* ♻️ Recurring Transactions with Cron Job
-* 📄 Auto-Generated Monthly Report (Emailed to User)
-* 📥 CSV transaction Import
-* 🔍 Filter & Search
-* 📅 Pagination
-* 🗑️ Bulk Delete
-* ➕ Duplicate Transactions
-* 🧑‍💼 Upload Profile Photo (Cloudinary)
-* 🌐 Built with MERN Stack (Node.js, MongoDB, React, TypeScript)
-
-- 💳 [Premium] Upgrades via Stripe — Free Trial, Monthly & Yearly Plans, Easy Plan Switching 👉 [Get It Here](https://techwithemma.gumroad.com/l/gasvc)
+-> Tech Stack  
+   Frontend: React, Redux, TailwindCSS  
+   Backend: Node.js, Express.js  
+   Database: MongoDB (Mongoose ODM)  
+   Authentication: JWT, OAuth   
+   AI/ML: TensorFlow.js / OpenAI API (for insights & predictions)  
+   Deployment: Vercel  
 
 
 
-## 🔧 How to Use This Project
+-> Installation & Setup  
 
-### 📺 Step 1: Watch the Complete Full Course on YouTube
+Clone the repository:  
+git clone https://github.com/dhanrajsingh16/ai-financial-saas
 
-> Learn how it all works, including the folder structure, integration, AI config, and more.
-> 👉 [Watch the Course](https://www.youtube.com/watch?v=2S7Y2wewF6I)
+-> Backend Setup
+   Copy code
+   cd backend
+   npm install
+   npm run dev
+
+-> Frontend Setup
+   Copy code
+   cd frontend
+   npm install
+   npm start
+   Environment Variables
+   Create a .env file in both backend and frontend with the following:
+
+Backend (/backend/.env)
+
+  ini
+  Copy code
+  PORT=5000
+  MONGO_URI=your_mongodb_connection
+  JWT_SECRET=your_jwt_secret
+  STRIPE_SECRET_KEY=your_stripe_key
+  OPENAI_API_KEY=your_openai_key   # if using AI API
+  Frontend (/frontend/.env)
+
+  ini
+  Copy code
+  REACT_APP_API_URL=http://localhost:5000
 
 
+  Author
 
-### 💻 Step 2: Run It Locally, Setup Video, Live Preview
-
-> Want to run this project on your own machine? We've got you covered:
-👉 [Setup & Live Preview Link](https://techwithemma.gumroad.com/l/nphhyz)
-
-
-
-### 🚀 [Step 3]: Get the Extended Version — Stripe Payment Video (Free Trial), Full Source Code, Deployment & More.
-
-This is the missing piece — the Stripe payment that powers your SaaS.
-👉 [Get the Extended Version](https://techwithemma.gumroad.com/l/gasvc)
-
-* Free Trial + Monthly & Yearly Plan
-* Switch between Monthly ↔️ Yearly Plan
-* Full Stripe Integration & Webhooks
-* Setup Video (Run locally)
-* Complete Full Source Code
-* Plus Support
----
-
-## 📜 License Information
-
-A paid license is required for commercial use. To obtain a commercial license, please visit 👉 [Here](https://techwithemma.gumroad.com/l/huytmd)
-
-For more details about license, please refer to the [TECHWITHEMMA-LICENSE.md](https://github.com/TechWithEmmaYT/Advanced-MERN-AI-Financial-SaaS-Platform/blob/main/TECHWITHEMMA-LICENSE.md).
-
----
-
-# 📺 Subscribe for More Projects
-
-If you find this helpful, support by subscribing and sharing:
-
-🔗 [https://tinyurl.com/subcribe-to-techwithEmma](https://tinyurl.com/subcribe-to-techwithEmma)
+  Dhanraj Singh
