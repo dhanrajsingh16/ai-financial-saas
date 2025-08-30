@@ -47,11 +47,17 @@ Backend (/backend/.env)
 
   ini
   Copy code
+  
   PORT=5000
+  
   MONGO_URI=your_mongodb_connection
+  
   JWT_SECRET=your_jwt_secret
+  
   STRIPE_SECRET_KEY=your_stripe_key
+  
   OPENAI_API_KEY=your_openai_key   # if using AI API
+  
   Frontend (/frontend/.env)
 
   ini
